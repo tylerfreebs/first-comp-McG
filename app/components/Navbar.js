@@ -9,7 +9,7 @@ function LanguageNav ({ selected, onUpdateLanguage }){
                   <li key={language}>
                       <button 
                         className='btn-clear nav-link'
-                        style={language === selected ? {color: 'red'} : null}
+                        style={language === selected ? {color: 'rgb(220,20,60)'} : null}
                         onClick={() => onUpdateLanguage(language)}>
                         {language}
                       </button>
